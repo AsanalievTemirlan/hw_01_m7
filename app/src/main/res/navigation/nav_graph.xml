@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/viewPagerFragment">
+
+    <fragment
+        android:id="@+id/doorFragment"
+        android:name="com.example.hw_01_m7.ui.fragment.doorFrament.DoorFragment"
+        android:label="DoorFragment" />
+    <fragment
+        android:id="@+id/viewPagerFragment"
+        android:name="com.example.hw_01_m7.ui.fragment.viewPager.ViewPagerFragment"
+        android:label="fragment_view_pager"
+        tools:layout="@layout/fragment_view_pager" />
+    <fragment
+        android:id="@+id/cameraFragment"
+        android:name="com.example.hw_01_m7.ui.fragment.cameraFragment.CameraFragment"
+        android:label="fragment_cameta"
+        tools:layout="@layout/fragment_camera" />
+</navigation>
