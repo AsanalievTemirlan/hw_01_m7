@@ -8,8 +8,9 @@ import androidx.fragment.app.Fragment
 import com.example.hw_01_m7.databinding.FragmentViewPagerBinding
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
+import dagger.hilt.android.AndroidEntryPoint
 
-
+@AndroidEntryPoint
 class ViewPagerFragment : Fragment() {
 
     private lateinit var binding: FragmentViewPagerBinding
